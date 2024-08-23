@@ -1,0 +1,148 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+  *{
+  margin: 0;
+}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  height: 72px;
+}
+ul{
+  display: flex;
+  font-weight: 500;
+  gap: 28px;
+  list-style: none;
+}
+h1{
+  font-size: 48px;
+  font-weight: 800px;
+}
+p{
+  font-weight: 500px;
+}
+.container-2{
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.main-btn {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column; /* Stack the sec-btn and btn-2 vertically */
+}
+
+.sec-btn {
+  display: flex;
+  gap: 12px; /* Space between the two upper buttons */
+  margin-bottom: 16px; /* Space below the top buttons */
+}
+
+.btn {
+  margin-right: 0; /* Reset margin-right if not needed */
+}
+
+.btn{
+  min-width: 220px;
+  gap: 8px;
+  margin-top: 0;
+  padding: 18px 10px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-2 {
+  border: 1px solid black;
+  margin-top: 0; /* Ensure there's no unwanted margin */
+  padding: 18px 10px; /* Matching padding as in .btn */
+  background-color: white;
+  color: black;
+  min-width: 220px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+.main-form{
+  margin-top: 25px;
+}
+.input1{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+.input1 input{
+  height: 40px;
+  padding: 0 8px;
+}
+.input1 label{
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  background-color: white;
+  padding: 0 10px;
+}
+
+.input2{
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+.input2 input{
+  height: 40px;
+  padding: 0 8px;
+}
+.input2 label{
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  background-color: white;
+  padding: 0 10px;
+}
+.input3{
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+.input3 input{
+  height: 150px;
+  padding: 0 8px;
+}
+.input3 label{
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  background-color: white;
+  padding: 0 10px;
+}
+.submit-btn{
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+.main-container{
+  display: flex;
+  height: (100vh - 72px);
+  justify-content: end;
+  flex-direction: column;
+
+}
